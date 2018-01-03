@@ -69,7 +69,7 @@ public class GameParser {
      * @param frame
      * @return
      */
-    private static int getFirstRoll(String[] frame) {
+    private int getFirstRoll(String[] frame) {
 
         if(frame[0].equals(Constants.STRIKE)) {
             return Constants.MAX_PINS;
@@ -84,7 +84,7 @@ public class GameParser {
      * @param first
      * @return
      */
-    private static int getSecondRoll(String[] frame, int first) {
+    private int getSecondRoll(String[] frame, int first) {
 
         assert(frame.length == 2 );
 
