@@ -95,7 +95,7 @@ public class GameParser {
 
         //check for spare
         else if( frame[1].equals(Constants.SPARE) ) {
-            return Math.abs(Constants.MAX_PINS - first);
+            return (Constants.MAX_PINS - first);
         }
 
         else {

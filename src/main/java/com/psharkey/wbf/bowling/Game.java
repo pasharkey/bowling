@@ -46,6 +46,10 @@ public class Game {
      */
     public void bowl() {
 
+        //simple validation for testing.
+        //This program assumes that a valid int[] array has been provided
+        assert( rolls.length > 0 );
+
         int currRoll = 0;
 
         //loop through game
